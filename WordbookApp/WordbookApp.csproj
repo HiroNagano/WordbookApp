@@ -13,4 +13,10 @@
     <PackageReference Include="Supabase.Postgrest" Version="4.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="..\docs\**\*" Link="docs\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

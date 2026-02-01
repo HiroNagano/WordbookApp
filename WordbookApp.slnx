@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="WordbookApp.Core/WordbookApp.Core.csproj" />
+  <Project Path="WordbookApp.Mobile/WordbookApp.Mobile.csproj" />
   <Project Path="WordbookApp/WordbookApp.csproj" />
 </Solution>

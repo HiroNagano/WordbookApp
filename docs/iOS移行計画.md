@@ -84,9 +84,9 @@ dotnet new maui --help
 
 #### 1.2 必要なツールとアカウント
 - [x] Visual Studio 2026 (.NET MAUI workload)
-- [ ] Xcode (最新版) - Macにインストール
+- [x] Xcode (最新版) - Macにインストール
 - [ ] Apple Developer Account (年間$99)
-- [ ] Mac (物理マシンまたはMac-as-a-Service)
+- [x] Mac (物理マシンまたはMac-as-a-Service)
 - [ ] Android Studio (Android開発用、オプション)
 
 #### 1.3 プロジェクト分析
@@ -96,26 +96,32 @@ dotnet new maui --help
 
 ---
 
-### フェーズ2: プロジェクト作成（2-3日）
+### フェーズ2: プロジェクト作成（2-3日） ? 完了
 
-#### 2.1 新規MAUIプロジェクトの作成
+#### 2.1 新規MAUIプロジェクトの作成 ?
 ```bash
 cd C:\Projects\WordbookApp
 dotnet new maui -n WordbookApp.Mobile
 ```
+**状態**: 完了 - `WordbookApp.Mobile` プロジェクト作成済み
 
-#### 2.2 共有ライブラリの作成
+#### 2.2 共有ライブラリの作成 ?
 ```bash
 dotnet new classlib -n WordbookApp.Core -f net10.0
 ```
+**状態**: 完了 - `WordbookApp.Core` プロジェクト作成済み
 
-#### 2.3 ソリューション構成
+#### 2.3 ソリューション構成 ?
 ```bash
-dotnet new sln -n WordbookApp
 dotnet sln add WordbookApp.Mobile/WordbookApp.Mobile.csproj
 dotnet sln add WordbookApp.Core/WordbookApp.Core.csproj
-dotnet sln add WordbookApp/WordbookApp.csproj  # 既存WPFプロジェクト（参考用）
 ```
+**状態**: 完了 - 3つのプロジェクトがソリューションに追加済み
+- WordbookApp (WPF)
+- WordbookApp.Core (共有ライブラリ)
+- WordbookApp.Mobile (MAUI - iOS, Android, Windows, macOS対応)
+
+**ビルド確認**: ? すべてのプロジェクトが正常にビルド成功（2026/02/02 0:43）
 
 ---
 
