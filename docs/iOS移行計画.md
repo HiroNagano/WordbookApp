@@ -1,159 +1,159 @@
-# WordbookApp - iOSˆÚsŒv‰æ‘
+# WordbookApp - iOSç§»è¡Œè¨ˆç”»æ›¸
 
-## ?? ƒvƒƒWƒFƒNƒgŠT—v
+## ?? ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆæ¦‚è¦
 
-**ƒvƒƒWƒFƒNƒg–¼**: WordbookApp  
-**Œ»Ý‚Ìƒvƒ‰ƒbƒgƒtƒH[ƒ€**: WPF (.NET 10)  
-**ƒ^[ƒQƒbƒgƒvƒ‰ƒbƒgƒtƒH[ƒ€**: iOS (‚¨‚æ‚Ñ AndroidAWindowsAmacOS)  
-**ˆÚs•û–@**: .NET MAUI (Multi-platform App UI)  
-**ì¬“ú**: 2026”N2ŒŽ1“ú
-
----
-
-## ?? ˆÚs–Ú•W
-
-1. Œ»Ý‚ÌWPFƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðiPhone‚Å“®ì‚·‚é‚æ‚¤‚ÉˆÚs
-2. ƒNƒƒXƒvƒ‰ƒbƒgƒtƒH[ƒ€‘Î‰žiiOSAAndroidAWindowsAmacOSj
-3. Šù‘¶‚ÌƒrƒWƒlƒXƒƒWƒbƒN‚Æƒf[ƒ^\‘¢‚ÌÄ—˜—p
-4. ƒ‚ƒ_ƒ“‚Èƒ‚ƒoƒCƒ‹UI‚ÌŽÀ‘•
+**ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆå**: WordbookApp  
+**ç¾åœ¨ã®ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ **: WPF (.NET 10)  
+**ã‚¿ãƒ¼ã‚²ãƒƒãƒˆãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ **: iOS (ãŠã‚ˆã³ Androidã€Windowsã€macOS)  
+**ç§»è¡Œæ–¹æ³•**: .NET MAUI (Multi-platform App UI)  
+**ä½œæˆæ—¥**: 2026å¹´2æœˆ1æ—¥
 
 ---
 
-## ?? Œ»ó•ªÍ
+## ?? ç§»è¡Œç›®æ¨™
 
-### Œ»Ý‚ÌƒvƒƒWƒFƒNƒg\¬
-- **ƒvƒƒWƒFƒNƒgƒ^ƒCƒv**: WPF Application
-- **ƒtƒŒ[ƒ€ƒ[ƒN**: .NET 10
-- **ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œê**: C#
-- **UIƒtƒŒ[ƒ€ƒ[ƒN**: WPF XAML
-- **Žå—vƒtƒ@ƒCƒ‹**:
+1. ç¾åœ¨ã®WPFã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’iPhoneã§å‹•ä½œã™ã‚‹ã‚ˆã†ã«ç§»è¡Œ
+2. ã‚¯ãƒ­ã‚¹ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ å¯¾å¿œï¼ˆiOSã€Androidã€Windowsã€macOSï¼‰
+3. æ—¢å­˜ã®ãƒ“ã‚¸ãƒã‚¹ãƒ­ã‚¸ãƒƒã‚¯ã¨ãƒ‡ãƒ¼ã‚¿æ§‹é€ ã®å†åˆ©ç”¨
+4. ãƒ¢ãƒ€ãƒ³ãªãƒ¢ãƒã‚¤ãƒ«UIã®å®Ÿè£…
+
+---
+
+## ?? ç¾çŠ¶åˆ†æž
+
+### ç¾åœ¨ã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆæ§‹æˆ
+- **ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã‚¿ã‚¤ãƒ—**: WPF Application
+- **ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯**: .NET 10
+- **ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¨€èªž**: C#
+- **UIãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯**: WPF XAML
+- **ä¸»è¦ãƒ•ã‚¡ã‚¤ãƒ«**:
   - `App.xaml` / `App.xaml.cs`
   - `MainWindow.xaml` / `MainWindow.xaml.cs`
 
-### Šm”F‚ª•K—v‚È€–Ú
-- [ ] ƒf[ƒ^ƒx[ƒXiSQLiteAEntity Framework Core“™j
-- [ ] ŠO•”API˜AŒg
-- [ ] ƒtƒ@ƒCƒ‹ƒXƒgƒŒ[ƒW
-- [ ] ”FØ‹@”\
-- [ ] ƒvƒbƒVƒ…’Ê’m‚Ì•K—v«
-- [ ] ƒIƒtƒ‰ƒCƒ“‹@”\‚Ì—vŒ
+### ç¢ºèªãŒå¿…è¦ãªé …ç›®
+- [ ] ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ï¼ˆSQLiteã€Entity Framework Coreç­‰ï¼‰
+- [ ] å¤–éƒ¨APIé€£æº
+- [ ] ãƒ•ã‚¡ã‚¤ãƒ«ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸
+- [ ] èªè¨¼æ©Ÿèƒ½
+- [ ] ãƒ—ãƒƒã‚·ãƒ¥é€šçŸ¥ã®å¿…è¦æ€§
+- [ ] ã‚ªãƒ•ãƒ©ã‚¤ãƒ³æ©Ÿèƒ½ã®è¦ä»¶
 
 ---
 
-## ??? ƒA[ƒLƒeƒNƒ`ƒƒÝŒv
+## ??? ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£è¨­è¨ˆ
 
-### „§ƒvƒƒWƒFƒNƒg\‘¢
+### æŽ¨å¥¨ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆæ§‹é€ 
 
 ```
 WordbookApp/
-„¥„Ÿ„Ÿ WordbookApp.Core/              # ‹¤—LƒrƒWƒlƒXƒƒWƒbƒN
-„    „¥„Ÿ„Ÿ Models/                    # ƒf[ƒ^ƒ‚ƒfƒ‹
-„    „¥„Ÿ„Ÿ Services/                  # ƒrƒWƒlƒXƒT[ƒrƒX
-„    „¥„Ÿ„Ÿ Interfaces/                # ƒCƒ“ƒ^[ƒtƒF[ƒX’è‹`
-„    „¤„Ÿ„Ÿ Helpers/                   # ƒwƒ‹ƒp[ƒNƒ‰ƒX
-„ 
-„¥„Ÿ„Ÿ WordbookApp.Mobile/            # .NET MAUIƒvƒƒWƒFƒNƒg
-„    „¥„Ÿ„Ÿ Platforms/
-„    „    „¥„Ÿ„Ÿ iOS/                   # iOSŒÅ—L‚ÌƒR[ƒh
-„    „    „¥„Ÿ„Ÿ Android/               # AndroidŒÅ—L‚ÌƒR[ƒh
-„    „    „¥„Ÿ„Ÿ Windows/               # WindowsŒÅ—L‚ÌƒR[ƒh
-„    „    „¤„Ÿ„Ÿ MacCatalyst/           # macOSŒÅ—L‚ÌƒR[ƒh
-„    „¥„Ÿ„Ÿ Views/                     # MAUI Pages
-„    „¥„Ÿ„Ÿ ViewModels/                # MVVM ViewModels
-„    „¥„Ÿ„Ÿ Resources/                 # ƒŠƒ\[ƒXi‰æ‘œAƒtƒHƒ“ƒg“™j
-„    „¥„Ÿ„Ÿ App.xaml                   # ƒAƒvƒŠƒGƒ“ƒgƒŠƒ|ƒCƒ“ƒg
-„    „¤„Ÿ„Ÿ MauiProgram.cs             # ƒAƒvƒŠƒP[ƒVƒ‡ƒ“Ý’è
-„ 
-„¤„Ÿ„Ÿ WordbookApp.Tests/             # ƒ†ƒjƒbƒgƒeƒXƒg
+â”œâ”€â”€ WordbookApp.Core/              # å…±æœ‰ãƒ“ã‚¸ãƒã‚¹ãƒ­ã‚¸ãƒƒã‚¯
+â”‚   â”œâ”€â”€ Models/                    # ãƒ‡ãƒ¼ã‚¿ãƒ¢ãƒ‡ãƒ«
+â”‚   â”œâ”€â”€ Services/                  # ãƒ“ã‚¸ãƒã‚¹ã‚µãƒ¼ãƒ“ã‚¹
+â”‚   â”œâ”€â”€ Interfaces/                # ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹å®šç¾©
+â”‚   â””â”€â”€ Helpers/                   # ãƒ˜ãƒ«ãƒ‘ãƒ¼ã‚¯ãƒ©ã‚¹
+â”‚
+â”œâ”€â”€ WordbookApp.Mobile/            # .NET MAUIãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ
+â”‚   â”œâ”€â”€ Platforms/
+â”‚   â”‚   â”œâ”€â”€ iOS/                   # iOSå›ºæœ‰ã®ã‚³ãƒ¼ãƒ‰
+â”‚   â”‚   â”œâ”€â”€ Android/               # Androidå›ºæœ‰ã®ã‚³ãƒ¼ãƒ‰
+â”‚   â”‚   â”œâ”€â”€ Windows/               # Windowså›ºæœ‰ã®ã‚³ãƒ¼ãƒ‰
+â”‚   â”‚   â””â”€â”€ MacCatalyst/           # macOSå›ºæœ‰ã®ã‚³ãƒ¼ãƒ‰
+â”‚   â”œâ”€â”€ Views/                     # MAUI Pages
+â”‚   â”œâ”€â”€ ViewModels/                # MVVM ViewModels
+â”‚   â”œâ”€â”€ Resources/                 # ãƒªã‚½ãƒ¼ã‚¹ï¼ˆç”»åƒã€ãƒ•ã‚©ãƒ³ãƒˆç­‰ï¼‰
+â”‚   â”œâ”€â”€ App.xaml                   # ã‚¢ãƒ—ãƒªã‚¨ãƒ³ãƒˆãƒªãƒã‚¤ãƒ³ãƒˆ
+â”‚   â””â”€â”€ MauiProgram.cs             # ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³è¨­å®š
+â”‚
+â””â”€â”€ WordbookApp.Tests/             # ãƒ¦ãƒ‹ãƒƒãƒˆãƒ†ã‚¹ãƒˆ
 ```
 
 ---
 
-## ?? ˆÚsŽè‡
+## ?? ç§»è¡Œæ‰‹é †
 
-### ƒtƒF[ƒY1: €”õi1-2“új
+### ãƒ•ã‚§ãƒ¼ã‚º1: æº–å‚™ï¼ˆ1-2æ—¥ï¼‰
 
-#### 1.1 ŠJ”­ŠÂ‹«‚ÌƒZƒbƒgƒAƒbƒv
+#### 1.1 é–‹ç™ºç’°å¢ƒã®ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—
 ```bash
-# .NET MAUI Workload‚ÌƒCƒ“ƒXƒg[ƒ‹
+# .NET MAUI Workloadã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 dotnet workload install maui
 
-# ƒeƒ“ƒvƒŒ[ƒg‚ÌŠm”F
+# ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®ç¢ºèª
 dotnet new maui --help
 ```
 
-#### 1.2 •K—v‚Èƒc[ƒ‹‚ÆƒAƒJƒEƒ“ƒg
+#### 1.2 å¿…è¦ãªãƒ„ãƒ¼ãƒ«ã¨ã‚¢ã‚«ã‚¦ãƒ³ãƒˆ
 - [x] Visual Studio 2026 (.NET MAUI workload)
-- [x] Xcode (ÅV”Å) - Mac‚ÉƒCƒ“ƒXƒg[ƒ‹
-- [ ] Apple Developer Account (”NŠÔ$99)
-- [x] Mac (•¨—ƒ}ƒVƒ“‚Ü‚½‚ÍMac-as-a-Service)
-- [ ] Android Studio (AndroidŠJ”­—pAƒIƒvƒVƒ‡ƒ“)
+- [x] Xcode (æœ€æ–°ç‰ˆ) - Macã«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+- [ ] Apple Developer Account (å¹´é–“$99)
+- [x] Mac (ç‰©ç†ãƒžã‚·ãƒ³ã¾ãŸã¯Mac-as-a-Service)
+- [ ] Android Studio (Androidé–‹ç™ºç”¨ã€ã‚ªãƒ—ã‚·ãƒ§ãƒ³)
 
-#### 1.3 ƒvƒƒWƒFƒNƒg•ªÍ
-- [ ] Šù‘¶ƒR[ƒh‚ÌˆË‘¶ŠÖŒW‚ð•¶‘‰»
-- [ ] MAUIŒÝŠ·«‚Ì‚È‚¢API‚ðƒŠƒXƒgƒAƒbƒv
-- [ ] ƒT[ƒhƒp[ƒeƒBƒ‰ƒCƒuƒ‰ƒŠ‚Ì‘ã‘Ö‚ð’²¸
+#### 1.3 ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆåˆ†æž
+- [ ] æ—¢å­˜ã‚³ãƒ¼ãƒ‰ã®ä¾å­˜é–¢ä¿‚ã‚’æ–‡æ›¸åŒ–
+- [ ] MAUIäº’æ›æ€§ã®ãªã„APIã‚’ãƒªã‚¹ãƒˆã‚¢ãƒƒãƒ—
+- [ ] ã‚µãƒ¼ãƒ‰ãƒ‘ãƒ¼ãƒ†ã‚£ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®ä»£æ›¿ã‚’èª¿æŸ»
 
 ---
 
-### ƒtƒF[ƒY2: ƒvƒƒWƒFƒNƒgì¬i2-3“új ? Š®—¹
+### ãƒ•ã‚§ãƒ¼ã‚º2: ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆä½œæˆï¼ˆ2-3æ—¥ï¼‰ ? å®Œäº†
 
-#### 2.1 V‹KMAUIƒvƒƒWƒFƒNƒg‚Ìì¬ ?
+#### 2.1 æ–°è¦MAUIãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®ä½œæˆ ?
 ```bash
-cd C:\Projects\WordbookApp
+cd C:Â¥ProjectsÂ¥WordbookApp
 dotnet new maui -n WordbookApp.Mobile
 ```
-**ó‘Ô**: Š®—¹ - `WordbookApp.Mobile` ƒvƒƒWƒFƒNƒgì¬Ï‚Ý
+**çŠ¶æ…‹**: å®Œäº† - `WordbookApp.Mobile` ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆä½œæˆæ¸ˆã¿
 
-#### 2.2 ‹¤—Lƒ‰ƒCƒuƒ‰ƒŠ‚Ìì¬ ?
+#### 2.2 å…±æœ‰ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®ä½œæˆ ?
 ```bash
 dotnet new classlib -n WordbookApp.Core -f net10.0
 ```
-**ó‘Ô**: Š®—¹ - `WordbookApp.Core` ƒvƒƒWƒFƒNƒgì¬Ï‚Ý
+**çŠ¶æ…‹**: å®Œäº† - `WordbookApp.Core` ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆä½œæˆæ¸ˆã¿
 
-#### 2.3 ƒ\ƒŠƒ…[ƒVƒ‡ƒ“\¬ ?
+#### 2.3 ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³æ§‹æˆ ?
 ```bash
 dotnet sln add WordbookApp.Mobile/WordbookApp.Mobile.csproj
 dotnet sln add WordbookApp.Core/WordbookApp.Core.csproj
 ```
-**ó‘Ô**: Š®—¹ - 3‚Â‚ÌƒvƒƒWƒFƒNƒg‚ªƒ\ƒŠƒ…[ƒVƒ‡ƒ“‚É’Ç‰ÁÏ‚Ý
+**çŠ¶æ…‹**: å®Œäº† - 3ã¤ã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãŒã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³ã«è¿½åŠ æ¸ˆã¿
 - WordbookApp (WPF)
-- WordbookApp.Core (‹¤—Lƒ‰ƒCƒuƒ‰ƒŠ)
-- WordbookApp.Mobile (MAUI - iOS, Android, Windows, macOS‘Î‰ž)
+- WordbookApp.Core (å…±æœ‰ãƒ©ã‚¤ãƒ–ãƒ©ãƒª)
+- WordbookApp.Mobile (MAUI - iOS, Android, Windows, macOSå¯¾å¿œ)
 
-**ƒrƒ‹ƒhŠm”F**: ? ‚·‚×‚Ä‚ÌƒvƒƒWƒFƒNƒg‚ª³í‚Éƒrƒ‹ƒh¬Œ÷i2026/02/02 0:43j
+**ãƒ“ãƒ«ãƒ‰ç¢ºèª**: ? ã™ã¹ã¦ã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãŒæ­£å¸¸ã«ãƒ“ãƒ«ãƒ‰æˆåŠŸï¼ˆ2026/02/02 0:43ï¼‰
 
 ---
 
-### ƒtƒF[ƒY3: ƒR[ƒhˆÚsi5-10“új
+### ãƒ•ã‚§ãƒ¼ã‚º3: ã‚³ãƒ¼ãƒ‰ç§»è¡Œï¼ˆ5-10æ—¥ï¼‰
 
-#### 3.1 ƒ‚ƒfƒ‹‘w‚ÌˆÚs
-- [ ] ƒf[ƒ^ƒ‚ƒfƒ‹‚ð `WordbookApp.Core/Models/` ‚ÉˆÚ“®
-- [ ] Entity’è‹`‚ÌˆÚs
-- [ ] ƒoƒŠƒf[ƒVƒ‡ƒ“ƒƒWƒbƒN‚ÌˆÚs
+#### 3.1 ãƒ¢ãƒ‡ãƒ«å±¤ã®ç§»è¡Œ
+- [ ] ãƒ‡ãƒ¼ã‚¿ãƒ¢ãƒ‡ãƒ«ã‚’ `WordbookApp.Core/Models/` ã«ç§»å‹•
+- [ ] Entityå®šç¾©ã®ç§»è¡Œ
+- [ ] ãƒãƒªãƒ‡ãƒ¼ã‚·ãƒ§ãƒ³ãƒ­ã‚¸ãƒƒã‚¯ã®ç§»è¡Œ
 
-**•ÏX“_**:
-- WPFŒÅ—L‚Ì‘®«‚ðíœ
-- ƒvƒ‰ƒbƒgƒtƒH[ƒ€”ñˆË‘¶‚ÌƒR[ƒh‚É•ÏŠ·
+**å¤‰æ›´ç‚¹**:
+- WPFå›ºæœ‰ã®å±žæ€§ã‚’å‰Šé™¤
+- ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ éžä¾å­˜ã®ã‚³ãƒ¼ãƒ‰ã«å¤‰æ›
 
-#### 3.2 ƒrƒWƒlƒXƒƒWƒbƒN‘w‚ÌˆÚs
-- [ ] ƒT[ƒrƒXƒNƒ‰ƒX‚ð `WordbookApp.Core/Services/` ‚ÉˆÚ“®
-- [ ] ƒf[ƒ^ƒAƒNƒZƒX‘w‚ÌŽÀ‘•
-- [ ] ˆË‘¶«’“ü‚ÌÝ’è
+#### 3.2 ãƒ“ã‚¸ãƒã‚¹ãƒ­ã‚¸ãƒƒã‚¯å±¤ã®ç§»è¡Œ
+- [ ] ã‚µãƒ¼ãƒ“ã‚¹ã‚¯ãƒ©ã‚¹ã‚’ `WordbookApp.Core/Services/` ã«ç§»å‹•
+- [ ] ãƒ‡ãƒ¼ã‚¿ã‚¢ã‚¯ã‚»ã‚¹å±¤ã®å®Ÿè£…
+- [ ] ä¾å­˜æ€§æ³¨å…¥ã®è¨­å®š
 
-**„§NuGetƒpƒbƒP[ƒW**:
+**æŽ¨å¥¨NuGetãƒ‘ãƒƒã‚±ãƒ¼ã‚¸**:
 ```xml
 <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
 <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.0" />
 <PackageReference Include="SQLite-net-pcl" Version="1.9.172" />
 ```
 
-#### 3.3 ViewModel‘w‚Ìì¬
-- [ ] `ViewModelBase` ‚ÌŽÀ‘•
-- [ ] Še‰æ–Ê—p‚ÌViewModel‚ðì¬
-- [ ] `INotifyPropertyChanged` ‚ÌŽÀ‘•i‚Ü‚½‚ÍCommunityToolkit.MvvmŽg—pj
+#### 3.3 ViewModelå±¤ã®ä½œæˆ
+- [ ] `ViewModelBase` ã®å®Ÿè£…
+- [ ] å„ç”»é¢ç”¨ã®ViewModelã‚’ä½œæˆ
+- [ ] `INotifyPropertyChanged` ã®å®Ÿè£…ï¼ˆã¾ãŸã¯CommunityToolkit.Mvvmä½¿ç”¨ï¼‰
 
-**—á**:
+**ä¾‹**:
 ```csharp
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -161,76 +161,76 @@ using CommunityToolkit.Mvvm.Input;
 public partial class MainViewModel : ObservableObject
 {
     [ObservableProperty]
-    private string title = "’PŒê’ ";
+    private string title = "å˜èªžå¸³";
     
     [RelayCommand]
     private async Task LoadDataAsync()
     {
-        // ƒf[ƒ^“Ç‚Ýž‚Ýˆ—
+        // ãƒ‡ãƒ¼ã‚¿èª­ã¿è¾¼ã¿å‡¦ç†
     }
 }
 ```
 
-#### 3.4 UI‘w‚ÌˆÚs
+#### 3.4 UIå±¤ã®ç§»è¡Œ
 
-##### WPF ¨ MAUI XAML•ÏŠ·ƒ}ƒbƒsƒ“ƒO
+##### WPF â†’ MAUI XAMLå¤‰æ›ãƒžãƒƒãƒ”ãƒ³ã‚°
 
-| WPF | .NET MAUI | ”õl |
+| WPF | .NET MAUI | å‚™è€ƒ |
 |-----|-----------|------|
-| `Window` | `ContentPage` / `Shell` | Shell‚ª„§ |
+| `Window` | `ContentPage` / `Shell` | ShellãŒæŽ¨å¥¨ |
 | `TextBlock` | `Label` | |
-| `TextBox` | `Entry` / `Editor` | •¡”s‚ÍEditor |
-| `Button` | `Button` | ‚Ù‚Ú“¯‚¶ |
-| `ListBox` | `CollectionView` | ‚æ‚è‚«”\ |
-| `DataGrid` | ƒJƒXƒ^ƒ€ŽÀ‘• | ƒT[ƒhƒp[ƒeƒB»‚ðŒŸ“¢ |
+| `TextBox` | `Entry` / `Editor` | è¤‡æ•°è¡Œã¯Editor |
+| `Button` | `Button` | ã»ã¼åŒã˜ |
+| `ListBox` | `CollectionView` | ã‚ˆã‚Šé«˜æ€§èƒ½ |
+| `DataGrid` | ã‚«ã‚¹ã‚¿ãƒ å®Ÿè£… | ã‚µãƒ¼ãƒ‰ãƒ‘ãƒ¼ãƒ†ã‚£è£½ã‚’æ¤œè¨Ž |
 | `Menu` | `Shell.FlyoutItems` | |
 | `StackPanel` | `StackLayout` / `VerticalStackLayout` | |
-| `Grid` | `Grid` | ‚Ù‚Ú“¯‚¶ |
+| `Grid` | `Grid` | ã»ã¼åŒã˜ |
 
-##### ‰æ–ÊÝŒv
-- [ ] ƒƒCƒ“‰æ–Êi’PŒêˆê——j
-- [ ] Ú×‰æ–Êi’PŒê‚Ì’Ç‰Á/•ÒWj
-- [ ] Ý’è‰æ–Ê
-- [ ] ŠwK‰æ–Êiƒtƒ‰ƒbƒVƒ…ƒJ[ƒh“™j
+##### ç”»é¢è¨­è¨ˆ
+- [ ] ãƒ¡ã‚¤ãƒ³ç”»é¢ï¼ˆå˜èªžä¸€è¦§ï¼‰
+- [ ] è©³ç´°ç”»é¢ï¼ˆå˜èªžã®è¿½åŠ /ç·¨é›†ï¼‰
+- [ ] è¨­å®šç”»é¢
+- [ ] å­¦ç¿’ç”»é¢ï¼ˆãƒ•ãƒ©ãƒƒã‚·ãƒ¥ã‚«ãƒ¼ãƒ‰ç­‰ï¼‰
 
 ---
 
-### ƒtƒF[ƒY4: ƒvƒ‰ƒbƒgƒtƒH[ƒ€ŒÅ—LŽÀ‘•i3-5“új
+### ãƒ•ã‚§ãƒ¼ã‚º4: ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ å›ºæœ‰å®Ÿè£…ï¼ˆ3-5æ—¥ï¼‰
 
-#### 4.1 iOSŒÅ—L‚ÌŽÀ‘•
-**êŠ**: `WordbookApp.Mobile/Platforms/iOS/`
+#### 4.1 iOSå›ºæœ‰ã®å®Ÿè£…
+**å ´æ‰€**: `WordbookApp.Mobile/Platforms/iOS/`
 
-- [ ] Info.plist ‚ÌÝ’è
-  - ƒAƒvƒŠ–¼Aƒoƒ“ƒhƒ‹ID
-  - •K—v‚Èƒp[ƒ~ƒbƒVƒ‡ƒ“iƒJƒƒ‰Aƒ}ƒCƒN“™j
-  - ƒTƒ|[ƒg‚·‚éiOSƒo[ƒWƒ‡ƒ“iiOS 14+„§j
+- [ ] Info.plist ã®è¨­å®š
+  - ã‚¢ãƒ—ãƒªåã€ãƒãƒ³ãƒ‰ãƒ«ID
+  - å¿…è¦ãªãƒ‘ãƒ¼ãƒŸãƒƒã‚·ãƒ§ãƒ³ï¼ˆã‚«ãƒ¡ãƒ©ã€ãƒžã‚¤ã‚¯ç­‰ï¼‰
+  - ã‚µãƒãƒ¼ãƒˆã™ã‚‹iOSãƒãƒ¼ã‚¸ãƒ§ãƒ³ï¼ˆiOS 14+æŽ¨å¥¨ï¼‰
 
 ```xml
 <key>CFBundleDisplayName</key>
-<string>’PŒê’ </string>
+<string>å˜èªžå¸³</string>
 <key>CFBundleIdentifier</key>
 <string>com.yourcompany.wordbookapp</string>
 <key>MinimumOSVersion</key>
 <string>14.0</string>
 ```
 
-- [ ] ƒ‰ƒCƒtƒTƒCƒNƒ‹ˆ—
-- [ ] ƒlƒCƒeƒBƒu‹@”\‚Ö‚ÌƒAƒNƒZƒXi•K—v‚É‰ž‚¶‚Äj
+- [ ] ãƒ©ã‚¤ãƒ•ã‚µã‚¤ã‚¯ãƒ«å‡¦ç†
+- [ ] ãƒã‚¤ãƒ†ã‚£ãƒ–æ©Ÿèƒ½ã¸ã®ã‚¢ã‚¯ã‚»ã‚¹ï¼ˆå¿…è¦ã«å¿œã˜ã¦ï¼‰
 
-#### 4.2 AndroidŒÅ—L‚ÌŽÀ‘•iƒIƒvƒVƒ‡ƒ“j
-**êŠ**: `WordbookApp.Mobile/Platforms/Android/`
+#### 4.2 Androidå›ºæœ‰ã®å®Ÿè£…ï¼ˆã‚ªãƒ—ã‚·ãƒ§ãƒ³ï¼‰
+**å ´æ‰€**: `WordbookApp.Mobile/Platforms/Android/`
 
-- [ ] AndroidManifest.xml ‚ÌÝ’è
-- [ ] •K—v‚Èƒp[ƒ~ƒbƒVƒ‡ƒ“
+- [ ] AndroidManifest.xml ã®è¨­å®š
+- [ ] å¿…è¦ãªãƒ‘ãƒ¼ãƒŸãƒƒã‚·ãƒ§ãƒ³
 
-#### 4.3 WindowsŒÅ—L‚ÌŽÀ‘•iƒIƒvƒVƒ‡ƒ“j
-- [ ] Šù‘¶‚ÌWPFƒAƒvƒŠ‚Æ‚Ì”äŠrE’²®
+#### 4.3 Windowså›ºæœ‰ã®å®Ÿè£…ï¼ˆã‚ªãƒ—ã‚·ãƒ§ãƒ³ï¼‰
+- [ ] æ—¢å­˜ã®WPFã‚¢ãƒ—ãƒªã¨ã®æ¯”è¼ƒãƒ»èª¿æ•´
 
 ---
 
-### ƒtƒF[ƒY5: ƒf[ƒ^‘w‚ÌŽÀ‘•i2-4“új
+### ãƒ•ã‚§ãƒ¼ã‚º5: ãƒ‡ãƒ¼ã‚¿å±¤ã®å®Ÿè£…ï¼ˆ2-4æ—¥ï¼‰
 
-#### 5.1 ƒ[ƒJƒ‹ƒf[ƒ^ƒx[ƒXiSQLite„§j
+#### 5.1 ãƒ­ãƒ¼ã‚«ãƒ«ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ï¼ˆSQLiteæŽ¨å¥¨ï¼‰
 
 ```csharp
 // WordbookApp.Core/Services/DatabaseService.cs
@@ -269,7 +269,7 @@ public class DatabaseService
 }
 ```
 
-#### 5.2 ˆË‘¶«’“ü‚ÌÝ’è
+#### 5.2 ä¾å­˜æ€§æ³¨å…¥ã®è¨­å®š
 
 ```csharp
 // MauiProgram.cs
@@ -285,7 +285,7 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
             });
             
-        // ƒT[ƒrƒX“o˜^
+        // ã‚µãƒ¼ãƒ“ã‚¹ç™»éŒ²
         builder.Services.AddSingleton<DatabaseService>();
         builder.Services.AddTransient<MainViewModel>();
         builder.Services.AddTransient<MainPage>();
@@ -297,53 +297,53 @@ public static class MauiProgram
 
 ---
 
-### ƒtƒF[ƒY6: ƒeƒXƒg‚ÆƒfƒoƒbƒOi3-5“új
+### ãƒ•ã‚§ãƒ¼ã‚º6: ãƒ†ã‚¹ãƒˆã¨ãƒ‡ãƒãƒƒã‚°ï¼ˆ3-5æ—¥ï¼‰
 
-#### 6.1 ƒ†ƒjƒbƒgƒeƒXƒg‚Ìì¬
+#### 6.1 ãƒ¦ãƒ‹ãƒƒãƒˆãƒ†ã‚¹ãƒˆã®ä½œæˆ
 ```bash
 dotnet new xunit -n WordbookApp.Tests
 dotnet sln add WordbookApp.Tests/WordbookApp.Tests.csproj
 ```
 
-#### 6.2 ƒfƒoƒCƒX‚Å‚ÌƒeƒXƒg
+#### 6.2 ãƒ‡ãƒã‚¤ã‚¹ã§ã®ãƒ†ã‚¹ãƒˆ
 
-**iOSƒVƒ~ƒ…ƒŒ[ƒ^[**:
-1. Visual Studio ¨ ƒvƒƒWƒFƒNƒgƒvƒƒpƒeƒB ¨ iOS
-2. ƒVƒ~ƒ…ƒŒ[ƒ^[‚ð‘I‘ði—á: iPhone 15 Proj
-3. F5ƒL[‚ÅƒfƒoƒbƒOŠJŽn
+**iOSã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿ãƒ¼**:
+1. Visual Studio â†’ ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ â†’ iOS
+2. ã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿ãƒ¼ã‚’é¸æŠžï¼ˆä¾‹: iPhone 15 Proï¼‰
+3. F5ã‚­ãƒ¼ã§ãƒ‡ãƒãƒƒã‚°é–‹å§‹
 
-**ŽÀ‹@ƒeƒXƒg**:
-1. Apple Developer Account‚ÅƒvƒƒrƒWƒ‡ƒjƒ“ƒOƒvƒƒtƒ@ƒCƒ‹ì¬
-2. ƒfƒoƒCƒX‚ðMac‚ÉÚ‘±
-3. Visual Studio‚ÅƒfƒoƒCƒX‚ðƒ^[ƒQƒbƒg‚Æ‚µ‚Ä‘I‘ð
+**å®Ÿæ©Ÿãƒ†ã‚¹ãƒˆ**:
+1. Apple Developer Accountã§ãƒ—ãƒ­ãƒ“ã‚¸ãƒ§ãƒ‹ãƒ³ã‚°ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ä½œæˆ
+2. ãƒ‡ãƒã‚¤ã‚¹ã‚’Macã«æŽ¥ç¶š
+3. Visual Studioã§ãƒ‡ãƒã‚¤ã‚¹ã‚’ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã¨ã—ã¦é¸æŠž
 
-#### 6.3 ƒeƒXƒg€–Ú
-- [ ] ‰æ–Ê‘JˆÚ
-- [ ] ƒf[ƒ^‚Ì•Û‘¶E“Ç‚Ýž‚Ý
-- [ ] ŠeŽí“ü—Í‘€ì
-- [ ] ‰ñ“]‘Î‰žic‰¡j
-- [ ] ƒ_[ƒNƒ‚[ƒh‘Î‰ž
-- [ ] ˆÙ‚È‚é‰æ–ÊƒTƒCƒY‘Î‰ž
-- [ ] ƒpƒtƒH[ƒ}ƒ“ƒX
+#### 6.3 ãƒ†ã‚¹ãƒˆé …ç›®
+- [ ] ç”»é¢é·ç§»
+- [ ] ãƒ‡ãƒ¼ã‚¿ã®ä¿å­˜ãƒ»èª­ã¿è¾¼ã¿
+- [ ] å„ç¨®å…¥åŠ›æ“ä½œ
+- [ ] å›žè»¢å¯¾å¿œï¼ˆç¸¦æ¨ªï¼‰
+- [ ] ãƒ€ãƒ¼ã‚¯ãƒ¢ãƒ¼ãƒ‰å¯¾å¿œ
+- [ ] ç•°ãªã‚‹ç”»é¢ã‚µã‚¤ã‚ºå¯¾å¿œ
+- [ ] ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹
 
 ---
 
-### ƒtƒF[ƒY7: Å“K‰»‚ÆŽdã‚°i2-3“új
+### ãƒ•ã‚§ãƒ¼ã‚º7: æœ€é©åŒ–ã¨ä»•ä¸Šã’ï¼ˆ2-3æ—¥ï¼‰
 
-#### 7.1 UI/UX‚Ì‰ü‘P
-- [ ] ƒAƒvƒŠƒAƒCƒRƒ“‚Ìì¬i•¡”ƒTƒCƒYj
-- [ ] ƒXƒvƒ‰ƒbƒVƒ…ƒXƒNƒŠ[ƒ“‚ÌÝ’è
-- [ ] ƒAƒjƒ[ƒVƒ‡ƒ“’Ç‰Á
-- [ ] ƒ[ƒfƒBƒ“ƒOƒCƒ“ƒWƒP[ƒ^[
-- [ ] ƒGƒ‰[ƒnƒ“ƒhƒŠƒ“ƒO‚Æƒ†[ƒU[ƒtƒB[ƒhƒoƒbƒN
+#### 7.1 UI/UXã®æ”¹å–„
+- [ ] ã‚¢ãƒ—ãƒªã‚¢ã‚¤ã‚³ãƒ³ã®ä½œæˆï¼ˆè¤‡æ•°ã‚µã‚¤ã‚ºï¼‰
+- [ ] ã‚¹ãƒ—ãƒ©ãƒƒã‚·ãƒ¥ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã®è¨­å®š
+- [ ] ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³è¿½åŠ 
+- [ ] ãƒ­ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚¤ãƒ³ã‚¸ã‚±ãƒ¼ã‚¿ãƒ¼
+- [ ] ã‚¨ãƒ©ãƒ¼ãƒãƒ³ãƒ‰ãƒªãƒ³ã‚°ã¨ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯
 
-#### 7.2 ƒpƒtƒH[ƒ}ƒ“ƒXÅ“K‰»
-- [ ] ‰æ‘œ‚ÌÅ“K‰»
-- [ ] ’x‰„“Ç‚Ýž‚ÝiLazy Loadingj
-- [ ] ”ñ“¯Šúˆ—‚ÌÅ“K‰»
-- [ ] ƒƒ‚ƒŠƒŠ[ƒNŠm”F
+#### 7.2 ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹æœ€é©åŒ–
+- [ ] ç”»åƒã®æœ€é©åŒ–
+- [ ] é…å»¶èª­ã¿è¾¼ã¿ï¼ˆLazy Loadingï¼‰
+- [ ] éžåŒæœŸå‡¦ç†ã®æœ€é©åŒ–
+- [ ] ãƒ¡ãƒ¢ãƒªãƒªãƒ¼ã‚¯ç¢ºèª
 
-#### 7.3 ‘½Œ¾Œê‘Î‰žiƒIƒvƒVƒ‡ƒ“j
+#### 7.3 å¤šè¨€èªžå¯¾å¿œï¼ˆã‚ªãƒ—ã‚·ãƒ§ãƒ³ï¼‰
 ```
 // Resources/Strings/AppResources.resx
 // Resources/Strings/AppResources.ja.resx
@@ -351,33 +351,33 @@ dotnet sln add WordbookApp.Tests/WordbookApp.Tests.csproj
 
 ---
 
-### ƒtƒF[ƒY8: ƒfƒvƒƒCƒƒ“ƒgi2-3“új
+### ãƒ•ã‚§ãƒ¼ã‚º8: ãƒ‡ãƒ—ãƒ­ã‚¤ãƒ¡ãƒ³ãƒˆï¼ˆ2-3æ—¥ï¼‰
 
-#### 8.1 App Store Connect€”õ
-1. Apple Developer Portal‚ÅƒAƒvƒŠ“o˜^
-2. App Store Connect‚ÅƒAƒvƒŠî•ñ“ü—Í
-   - ƒAƒvƒŠ–¼
-   - à–¾•¶
-   - ƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒgi•¡”ƒfƒoƒCƒXj
-   - ƒL[ƒ[ƒh
-   - ƒJƒeƒSƒŠ
+#### 8.1 App Store Connectæº–å‚™
+1. Apple Developer Portalã§ã‚¢ãƒ—ãƒªç™»éŒ²
+2. App Store Connectã§ã‚¢ãƒ—ãƒªæƒ…å ±å…¥åŠ›
+   - ã‚¢ãƒ—ãƒªå
+   - èª¬æ˜Žæ–‡
+   - ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆï¼ˆè¤‡æ•°ãƒ‡ãƒã‚¤ã‚¹ï¼‰
+   - ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰
+   - ã‚«ãƒ†ã‚´ãƒª
 
-#### 8.2 ƒŠƒŠ[ƒXƒrƒ‹ƒhì¬
+#### 8.2 ãƒªãƒªãƒ¼ã‚¹ãƒ“ãƒ«ãƒ‰ä½œæˆ
 ```bash
 dotnet publish -f net10.0-ios -c Release
 ```
 
-#### 8.3 App StoreR¸\¿
-- [ ] ƒAƒvƒŠ‚ÌƒA[ƒJƒCƒuì¬
-- [ ] Xcode‚©‚ç Upload to App Store
-- [ ] R¸—pî•ñ‚Ì“ü—Í
-- [ ] R¸‘Ò‚¿i’Êí2-5“új
+#### 8.3 App Storeå¯©æŸ»ç”³è«‹
+- [ ] ã‚¢ãƒ—ãƒªã®ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ä½œæˆ
+- [ ] Xcodeã‹ã‚‰ Upload to App Store
+- [ ] å¯©æŸ»ç”¨æƒ…å ±ã®å…¥åŠ›
+- [ ] å¯©æŸ»å¾…ã¡ï¼ˆé€šå¸¸2-5æ—¥ï¼‰
 
 ---
 
-## ??? •K—v‚ÈNuGetƒpƒbƒP[ƒW
+## ??? å¿…è¦ãªNuGetãƒ‘ãƒƒã‚±ãƒ¼ã‚¸
 
-### Core ƒvƒƒWƒFƒNƒg
+### Core ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ
 ```xml
 <ItemGroup>
   <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.0" />
@@ -386,7 +386,7 @@ dotnet publish -f net10.0-ios -c Release
 </ItemGroup>
 ```
 
-### MAUI ƒvƒƒWƒFƒNƒg
+### MAUI ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ
 ```xml
 <ItemGroup>
   <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.*" />
@@ -398,85 +398,85 @@ dotnet publish -f net10.0-ios -c Release
 
 ---
 
-## ?? ƒŠƒXƒN‚Æ‘Îô
+## ?? ãƒªã‚¹ã‚¯ã¨å¯¾ç­–
 
-| ƒŠƒXƒN | ‰e‹¿“x | ‘Îô |
+| ãƒªã‚¹ã‚¯ | å½±éŸ¿åº¦ | å¯¾ç­– |
 |--------|--------|------|
-| MacŠÂ‹«‚ª‚È‚¢ | ‚ | Mac-as-a-ServiceiMacStadium“™j‚Ì—˜—p |
-| iOSŒÅ—L‚ÌƒoƒO | ’† | ‘Šú’iŠK‚©‚çŽÀ‹@ƒeƒXƒg‚ðŽÀŽ{ |
-| App StoreR¸ƒŠƒWƒFƒNƒg | ’† | ƒKƒCƒhƒ‰ƒCƒ“…ŽçAŽ–‘OŠm”F |
-| ƒpƒtƒH[ƒ}ƒ“ƒX–â‘è | ’† | ƒvƒƒtƒ@ƒCƒŠƒ“ƒOƒc[ƒ‹Šˆ—p |
-| WPF‹@”\‚ÌÄŒ»¢“ï | ’á | ‘ã‘ÖUI/UXƒpƒ^[ƒ“‚ÌÌ—p |
+| Macç’°å¢ƒãŒãªã„ | é«˜ | Mac-as-a-Serviceï¼ˆMacStadiumç­‰ï¼‰ã®åˆ©ç”¨ |
+| iOSå›ºæœ‰ã®ãƒã‚° | ä¸­ | æ—©æœŸæ®µéšŽã‹ã‚‰å®Ÿæ©Ÿãƒ†ã‚¹ãƒˆã‚’å®Ÿæ–½ |
+| App Storeå¯©æŸ»ãƒªã‚¸ã‚§ã‚¯ãƒˆ | ä¸­ | ã‚¬ã‚¤ãƒ‰ãƒ©ã‚¤ãƒ³éµå®ˆã€äº‹å‰ç¢ºèª |
+| ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹å•é¡Œ | ä¸­ | ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒªãƒ³ã‚°ãƒ„ãƒ¼ãƒ«æ´»ç”¨ |
+| WPFæ©Ÿèƒ½ã®å†ç¾å›°é›£ | ä½Ž | ä»£æ›¿UI/UXãƒ‘ã‚¿ãƒ¼ãƒ³ã®æŽ¡ç”¨ |
 
 ---
 
-## ?? ƒ^ƒCƒ€ƒ‰ƒCƒ“ŠTŽZ
+## ?? ã‚¿ã‚¤ãƒ ãƒ©ã‚¤ãƒ³æ¦‚ç®—
 
-| ƒtƒF[ƒY | ŠúŠÔ | ’S“– | ó‘Ô |
+| ãƒ•ã‚§ãƒ¼ã‚º | æœŸé–“ | æ‹…å½“ | çŠ¶æ…‹ |
 |----------|------|------|------|
-| 1. €”õ | 1-2“ú | ŠJ”­ŽÒ | ? –¢ŠJŽn |
-| 2. ƒvƒƒWƒFƒNƒgì¬ | 2-3“ú | ŠJ”­ŽÒ | ? –¢ŠJŽn |
-| 3. ƒR[ƒhˆÚs | 5-10“ú | ŠJ”­ŽÒ | ? –¢ŠJŽn |
-| 4. ƒvƒ‰ƒbƒgƒtƒH[ƒ€ŒÅ—L | 3-5“ú | ŠJ”­ŽÒ | ? –¢ŠJŽn |
-| 5. ƒf[ƒ^‘wŽÀ‘• | 2-4“ú | ŠJ”­ŽÒ | ? –¢ŠJŽn |
-| 6. ƒeƒXƒg | 3-5“ú | ŠJ”­ŽÒ/QA | ? –¢ŠJŽn |
-| 7. Å“K‰» | 2-3“ú | ŠJ”­ŽÒ | ? –¢ŠJŽn |
-| 8. ƒfƒvƒƒCƒƒ“ƒg | 2-3“ú | ŠJ”­ŽÒ | ? –¢ŠJŽn |
-| **‡Œv** | **20-35“ú** | | |
+| 1. æº–å‚™ | 1-2æ—¥ | é–‹ç™ºè€… | ? æœªé–‹å§‹ |
+| 2. ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆä½œæˆ | 2-3æ—¥ | é–‹ç™ºè€… | ? æœªé–‹å§‹ |
+| 3. ã‚³ãƒ¼ãƒ‰ç§»è¡Œ | 5-10æ—¥ | é–‹ç™ºè€… | ? æœªé–‹å§‹ |
+| 4. ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ å›ºæœ‰ | 3-5æ—¥ | é–‹ç™ºè€… | ? æœªé–‹å§‹ |
+| 5. ãƒ‡ãƒ¼ã‚¿å±¤å®Ÿè£… | 2-4æ—¥ | é–‹ç™ºè€… | ? æœªé–‹å§‹ |
+| 6. ãƒ†ã‚¹ãƒˆ | 3-5æ—¥ | é–‹ç™ºè€…/QA | ? æœªé–‹å§‹ |
+| 7. æœ€é©åŒ– | 2-3æ—¥ | é–‹ç™ºè€… | ? æœªé–‹å§‹ |
+| 8. ãƒ‡ãƒ—ãƒ­ã‚¤ãƒ¡ãƒ³ãƒˆ | 2-3æ—¥ | é–‹ç™ºè€… | ? æœªé–‹å§‹ |
+| **åˆè¨ˆ** | **20-35æ—¥** | | |
 
 ---
 
-## ?? ŽQlŽ‘—¿
+## ?? å‚è€ƒè³‡æ–™
 
-### ŒöŽ®ƒhƒLƒ…ƒƒ“ƒg
-- [.NET MAUI ƒhƒLƒ…ƒƒ“ƒg](https://learn.microsoft.com/ja-jp/dotnet/maui/)
+### å…¬å¼ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ
+- [.NET MAUI ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ](https://learn.microsoft.com/ja-jp/dotnet/maui/)
 - [iOS App Distribution Guide](https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases)
 - [Human Interface Guidelines - iOS](https://developer.apple.com/design/human-interface-guidelines/ios)
 
-### ŠwKƒŠƒ\[ƒX
+### å­¦ç¿’ãƒªã‚½ãƒ¼ã‚¹
 - [.NET MAUI for Beginners](https://learn.microsoft.com/ja-jp/training/paths/build-apps-with-dotnet-maui/)
 - [SQLite with .NET MAUI](https://learn.microsoft.com/ja-jp/dotnet/maui/data-cloud/database-sqlite)
 
-### ƒRƒ~ƒ…ƒjƒeƒB
+### ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£
 - [.NET MAUI GitHub](https://github.com/dotnet/maui)
 - [Stack Overflow - .NET MAUI](https://stackoverflow.com/questions/tagged/.net-maui)
 
 ---
 
-## ? ƒ`ƒFƒbƒNƒŠƒXƒg
+## ? ãƒã‚§ãƒƒã‚¯ãƒªã‚¹ãƒˆ
 
-### ŠJŽn‘O
-- [ ] MacŠÂ‹«‚ÌŠm•Û
-- [ ] Apple Developer Account‚Ì“o˜^
-- [ ] ŠJ”­ŠÂ‹«‚ÌƒZƒbƒgƒAƒbƒvŠ®—¹
-- [ ] ƒvƒƒWƒFƒNƒgƒŠƒ|ƒWƒgƒŠ‚ÌƒoƒbƒNƒAƒbƒv
+### é–‹å§‹å‰
+- [ ] Macç’°å¢ƒã®ç¢ºä¿
+- [ ] Apple Developer Accountã®ç™»éŒ²
+- [ ] é–‹ç™ºç’°å¢ƒã®ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—å®Œäº†
+- [ ] ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒªãƒã‚¸ãƒˆãƒªã®ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—
 
-### ŠJ”­’†
-- [ ] ’èŠú“I‚ÈƒRƒ~ƒbƒgiGitj
-- [ ] ƒR[ƒhƒŒƒrƒ…[
-- [ ] ƒ†ƒjƒbƒgƒeƒXƒg‚Ìì¬
-- [ ] ŽÀ‹@ƒeƒXƒg‚ÌŽÀŽ{
+### é–‹ç™ºä¸­
+- [ ] å®šæœŸçš„ãªã‚³ãƒŸãƒƒãƒˆï¼ˆGitï¼‰
+- [ ] ã‚³ãƒ¼ãƒ‰ãƒ¬ãƒ“ãƒ¥ãƒ¼
+- [ ] ãƒ¦ãƒ‹ãƒƒãƒˆãƒ†ã‚¹ãƒˆã®ä½œæˆ
+- [ ] å®Ÿæ©Ÿãƒ†ã‚¹ãƒˆã®å®Ÿæ–½
 
-### ƒŠƒŠ[ƒX‘O
-- [ ] ‘S‹@”\‚ÌƒeƒXƒgŠ®—¹
-- [ ] ƒpƒtƒH[ƒ}ƒ“ƒXƒeƒXƒgŠ®—¹
-- [ ] ƒZƒLƒ…ƒŠƒeƒBƒ`ƒFƒbƒNŠ®—¹
-- [ ] App StoreƒKƒCƒhƒ‰ƒCƒ“Šm”F
-- [ ] ƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg€”õŠ®—¹
-- [ ] ƒvƒ‰ƒCƒoƒV[ƒ|ƒŠƒV[‚Ìì¬
-
----
-
-## ?? ŽŸ‚ÌƒAƒNƒVƒ‡ƒ“
-
-1. **¡‚·‚®ŠJŽn**: MacŠÂ‹«‚ÆApple Developer Account‚Ì€”õ
-2. **Phase 1ŽÀs**: ŠJ”­ŠÂ‹«ƒZƒbƒgƒAƒbƒv‚ÆƒvƒƒWƒFƒNƒg•ªÍ
-3. **’èŠúƒŒƒrƒ…[**: T1‰ñ‚Ìi’»Šm”Fƒ~[ƒeƒBƒ“ƒO
+### ãƒªãƒªãƒ¼ã‚¹å‰
+- [ ] å…¨æ©Ÿèƒ½ã®ãƒ†ã‚¹ãƒˆå®Œäº†
+- [ ] ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹ãƒ†ã‚¹ãƒˆå®Œäº†
+- [ ] ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ãƒã‚§ãƒƒã‚¯å®Œäº†
+- [ ] App Storeã‚¬ã‚¤ãƒ‰ãƒ©ã‚¤ãƒ³ç¢ºèª
+- [ ] ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆæº–å‚™å®Œäº†
+- [ ] ãƒ—ãƒ©ã‚¤ãƒã‚·ãƒ¼ãƒãƒªã‚·ãƒ¼ã®ä½œæˆ
 
 ---
 
-## ?? Ž¿–âEƒTƒ|[ƒg
+## ?? æ¬¡ã®ã‚¢ã‚¯ã‚·ãƒ§ãƒ³
 
-‚±‚ÌƒhƒLƒ…ƒƒ“ƒg‚É‚Â‚¢‚Ä‚ÌŽ¿–â‚â’Ç‰Áî•ñ‚ª•K—v‚Èê‡‚ÍAƒvƒƒWƒFƒNƒgƒ`[ƒ€‚Ü‚Å‚¨–â‚¢‡‚í‚¹‚­‚¾‚³‚¢B
+1. **ä»Šã™ãé–‹å§‹**: Macç’°å¢ƒã¨Apple Developer Accountã®æº–å‚™
+2. **Phase 1å®Ÿè¡Œ**: é–‹ç™ºç’°å¢ƒã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ã¨ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆåˆ†æž
+3. **å®šæœŸãƒ¬ãƒ“ãƒ¥ãƒ¼**: é€±1å›žã®é€²æ—ç¢ºèªãƒŸãƒ¼ãƒ†ã‚£ãƒ³ã‚°
 
-**ÅIXV“ú**: 2026”N2ŒŽ1“ú
+---
+
+## ?? è³ªå•ãƒ»ã‚µãƒãƒ¼ãƒˆ
+
+ã“ã®ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆã«ã¤ã„ã¦ã®è³ªå•ã‚„è¿½åŠ æƒ…å ±ãŒå¿…è¦ãªå ´åˆã¯ã€ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒãƒ¼ãƒ ã¾ã§ãŠå•ã„åˆã‚ã›ãã ã•ã„ã€‚
+
+**æœ€çµ‚æ›´æ–°æ—¥**: 2026å¹´2æœˆ1æ—¥
