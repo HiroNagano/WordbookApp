@@ -4,6 +4,11 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);NETSDK1206</NoWarn>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SQLite-net-pcl" Version="1.9.172" />
+  </ItemGroup>
 
 </Project>

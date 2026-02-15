@@ -96,22 +96,22 @@ dotnet new maui --help
 
 ---
 
-### フェーズ2: プロジェクト作成（2-3日） ? 完了
+### フェーズ2: プロジェクト作成（2-3日） 完了
 
-#### 2.1 新規MAUIプロジェクトの作成 ?
+#### 2.1 新規MAUIプロジェクトの作成
 ```bash
 cd C:¥Projects¥WordbookApp
 dotnet new maui -n WordbookApp.Mobile
 ```
 **状態**: 完了 - `WordbookApp.Mobile` プロジェクト作成済み
 
-#### 2.2 共有ライブラリの作成 ?
+#### 2.2 共有ライブラリの作成
 ```bash
 dotnet new classlib -n WordbookApp.Core -f net10.0
 ```
 **状態**: 完了 - `WordbookApp.Core` プロジェクト作成済み
 
-#### 2.3 ソリューション構成 ?
+#### 2.3 ソリューション構成
 ```bash
 dotnet sln add WordbookApp.Mobile/WordbookApp.Mobile.csproj
 dotnet sln add WordbookApp.Core/WordbookApp.Core.csproj
@@ -121,15 +121,15 @@ dotnet sln add WordbookApp.Core/WordbookApp.Core.csproj
 - WordbookApp.Core (共有ライブラリ)
 - WordbookApp.Mobile (MAUI - iOS, Android, Windows, macOS対応)
 
-**ビルド確認**: ? すべてのプロジェクトが正常にビルド成功（2026/02/02 0:43）
+**ビルド確認**: 完了 - すべてのプロジェクトが正常にビルド成功（2026/02/02 0:43）
 
 ---
 
-### フェーズ3: コード移行（5-10日）
+### フェーズ3: コード移行（5-10日） 進行中
 
 #### 3.1 モデル層の移行
-- [ ] データモデルを `WordbookApp.Core/Models/` に移動
-- [ ] Entity定義の移行
+- [x] データモデルを `WordbookApp.Core/Models/` に移動
+- [x] Entity定義の移行
 - [ ] バリデーションロジックの移行
 
 **変更点**:
@@ -137,9 +137,15 @@ dotnet sln add WordbookApp.Core/WordbookApp.Core.csproj
 - プラットフォーム非依存のコードに変換
 
 #### 3.2 ビジネスロジック層の移行
-- [ ] サービスクラスを `WordbookApp.Core/Services/` に移動
-- [ ] データアクセス層の実装
+- [x] サービスクラスを `WordbookApp.Core/Services/` に移動
+- [x] データアクセス層の実装（SQLiteリポジトリ）
 - [ ] 依存性注入の設定
+
+**次タスク（DI設定/MAUI登録）**:
+- [ ] MAUI側でDBパスを生成（`FileSystem.AppDataDirectory`）
+- [ ] `IWordRepository` を `SqliteWordRepository` にバインド
+- [ ] `WordService` とViewModelの登録
+- [ ] アプリ起動時の初期化手順を定義
 
 **推奨NuGetパッケージ**:
 ```xml
@@ -414,9 +420,9 @@ dotnet publish -f net10.0-ios -c Release
 
 | フェーズ | 期間 | 担当 | 状態 |
 |----------|------|------|------|
-| 1. 準備 | 1-2日 | 開発者 | ? 未開始 |
-| 2. プロジェクト作成 | 2-3日 | 開発者 | ? 未開始 |
-| 3. コード移行 | 5-10日 | 開発者 | ? 未開始 |
+| 1. 準備 | 1-2日 | 開発者 | 未開始 |
+| 2. プロジェクト作成 | 2-3日 | 開発者 | 完了 |
+| 3. コード移行 | 5-10日 | 開発者 | 進行中 |
 | 4. プラットフォーム固有 | 3-5日 | 開発者 | ? 未開始 |
 | 5. データ層実装 | 2-4日 | 開発者 | ? 未開始 |
 | 6. テスト | 3-5日 | 開発者/QA | ? 未開始 |
@@ -479,4 +485,4 @@ dotnet publish -f net10.0-ios -c Release
 
 このドキュメントについての質問や追加情報が必要な場合は、プロジェクトチームまでお問い合わせください。
 
-**最終更新日**: 2026年2月1日
+**最終更新日**: 2026年2月12日
